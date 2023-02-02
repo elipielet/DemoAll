@@ -11,4 +11,4 @@ jobs:
         with:
           cx_tenant: ast_integration_tenant_eu
           base_uri: https://eu.ast.checkmarx.net
-          additional_params: --debug --apikey ${{ secrets.APIKEY }}
+          additional_params: --debug --apikey ${{ secrets.API_KEY }}
